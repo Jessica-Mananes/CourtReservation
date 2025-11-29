@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:  rgb(189, 189, 174);
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: Georgia;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.go-btn {
+    margin-top: 20px;
+    background: #4c5cff;
+    color: white;
+    padding: 12px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.go-btn:hover {
+    background: #2f3ac7;
+}
+.form-section {
+    background-image: linear-gradient(#ccc 1px, transparent 1px), 
+                      linear-gradient(90deg, #ccc 1px, transparent 1px);
+    background-size: 40px 40px;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+.form-section h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.reserve-form {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.reserve-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+.submit-btn {
+    margin-top: 15px;
+    width: 60%;
+    background: #4c5cff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #2f3ac7;
+}

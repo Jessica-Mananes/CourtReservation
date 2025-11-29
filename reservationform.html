@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <section class="hero">
+        <h1>VOLLEYBALL COURT</h1>
+        <p>Click below to reserve your slot</p>
+
+        <button class="go-btn" onclick="document.getElementById('reservation').scrollIntoView({behavior: 'smooth'});">
+            GO TO RESERVATION FORM
+        </button>
+    </section>
+
+    <section id="reservation" class="form-section">
+        <h2>RESERVATION FORM</h2>
+
+        <form class="reserve-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" required>
+            <input type="time" required>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </section>
+
+</body>
+</html>
