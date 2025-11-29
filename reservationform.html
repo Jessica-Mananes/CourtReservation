@@ -20,11 +20,17 @@
     <section id="reservation" class="form-section">
         <h2>RESERVATION FORM</h2>
 
-        <form class="reserve-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="date" required>
-            <input type="time" required>
+        <form class="reserve-form" method="POST" action="submit_reservation.php">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="date" name="date_reserve" required>
+
+            <!-- Start and End Time -->
+            <label for="start_time">Start Time:</label>
+            <input type="time" name="start_time" id="start_time" required>
+
+            <label for="end_time">End Time:</label>
+            <input type="time" name="end_time" id="end_time" required>
 
             <button type="submit" class="submit-btn">SUBMIT</button>
         </form>
